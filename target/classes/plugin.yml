@@ -1,0 +1,32 @@
+name: RapportSystem
+version: '1.0-SNAPSHOT'
+main: me.crunchycars.rapportSystem.RapportSystem
+api-version: '1.19'
+load: STARTUP
+depend: [Citizens]
+
+commands:
+  giveAmyRapportItem:
+    description: Gives the player Amy's Rapport Ticket.
+    usage: /giveAmyRapportItem
+    permission: rapportsystem.giveamyrapportitem
+
+  giveJakeRapportItem:
+    description: Gives the player Jake's Rapport Ticket.
+    usage: /giveJakeRapportItem
+    permission: rapportsystem.givejakerapportitem
+
+  giveMatheoRapportItem:
+    description: Gives the player Matheo's Rapport Ticket.
+    usage: /giveMatheoRapportItem
+    permission: rapportsystem.givematheorapportitem
+
+  giveDmitryRapportItem:
+    description: Gives the player Dmitry's Rapport Ticket.
+    usage: /giveDmitryRapportItem
+    permission: rapportsystem.givedmitryrapportitem
+
+  rapport:
+    description: Shows the player's rapport level and progress for all NPCs.
+    usage: /rapport
+    permission: rapportsystem.viewrapport
