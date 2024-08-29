@@ -46,7 +46,7 @@ public class RapportSystem extends JavaPlugin implements Listener, CommandExecut
         getCommand("giveJakeRapportItem").setExecutor(this);
         getCommand("giveMatheoRapportItem").setExecutor(this);
         getCommand("giveDmitryRapportItem").setExecutor(this);
-        getCommand("rapport").setExecutor(this);  // Register the new command
+        getCommand("rapport").setExecutor(this);  
     }
 
     @Override
